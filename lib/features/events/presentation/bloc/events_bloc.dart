@@ -37,6 +37,7 @@ class EventsBloc extends Bloc<EventsEvent, EventsState> {
     });
   }
 
+
   Future<void> _onLoadNearbyEvents(
     LoadNearbyEvents event,
     Emitter<EventsState> emit,
