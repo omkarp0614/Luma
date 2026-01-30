@@ -10,7 +10,7 @@ class CounterView extends StatelessWidget {
     required this.onDecrement,
     required this.onReset,
     super.key,
-  });
+  }); 
 
   final int value;
   final VoidCallback onIncrement;
