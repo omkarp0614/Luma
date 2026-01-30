@@ -20,6 +20,11 @@ jobs:
           channel: 'stable'
           cache: false
 
+      - name: Configure Flutter
+        run: |
+          flutter config --no-analytics
+          flutter config --no-cli-animations
+
       - name: Get dependencies
         run: |
           flutter pub get
